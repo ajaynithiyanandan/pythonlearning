@@ -13,3 +13,6 @@ number=int(input('Enter a number: '))
 while number < 10000000:
     number = number * 2 # Double the number
     print(number) # Print the doubled number
+
+for i in range(0,9):
+    print(i) # Print the number from 0 to 8
